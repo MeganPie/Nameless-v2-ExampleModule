@@ -27,7 +27,7 @@ if($user->isLoggedIn()){
  
  
 $page = 'admin';
-$admin_page = 'server';
+$admin_page = 'example';
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,11 +53,11 @@ $admin_page = 'server';
 		<div class="col-md-9">
 		  <div class="card">
 		    <div class="card-block">
-			  <h3><?php echo $ss_language->get('language', 'example_module'); ?></h3>
+			  <h3><?php echo $ss_language->get('language', 'example_module_title'); ?></h3>
 			  
 			  <hr/>
         
-        <p>This is the example module AdminCP Page! Feel free to use this as your base for your modules configs!!</p>
+        <p><?php echo $ss_language->get('language', 'example_module_desc'); ?></p>
 		
 				</div></div></div></div></div>
 	
