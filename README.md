@@ -1,2 +1,6 @@
-# Nameless-v2-ExampleModule
-A basic example module with a blnk AdminCP page, language settings and more. Helpful for newbies to making modules.
+# Nameless v2 - Example Module
+A basic example module with a blank AdminCP page, language settings and more.
+Helpful for users who are new to making Nameless v2 modules.
+
+# Warning
+Designed for Nameless v2 pre**3**, may not work on previous releases / future releases.
